@@ -1,15 +1,92 @@
-*.iml
-.gradle
+# Fichiers/repértoires spécifiques à Android Studio
+/.idea
+/.gradle
 /local.properties
+/captures
+/.externalNativeBuild
+/.cxx
+/.settings
+/.classpath
+/.project
+
+# Fichiers de build
+/build
+/app/build
+*.apk
+*.ap_
+
+# Fichiers de configuration utilisateur
+*.iml
+*.hprof
+
+# Fichiers de dépendances locales
+.gradle/
+gradle-app.setting
+
+# Configurations du système de build Gradle
+.gradle
+.gradle/**/cache/
+.gradle/**/taskHistory/
+.gradle/**/fileHashes/
+gradle/wrapper/gradle-wrapper.properties
+!gradle/wrapper/gradle-wrapper.jar
+
+# Fichiers de log
+*.log
+
+# Fichiers IntelliJ
 /.idea/caches
 /.idea/libraries
 /.idea/modules.xml
 /.idea/workspace.xml
 /.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
-.DS_Store
-/build
-/captures
-.externalNativeBuild
-.cxx
+/.idea/tasks.xml
+.idea/assetWizardSettings.xml
+
+# Bases de données locales Android Studio
+.idea/misc.xml
+.idea/modules.xml
+.idea/vcs.xml
+.idea/workspace.xml
+.idea/name
+.idea/compiler.xml
+
+# Binaires NDK et CMake
+**/*.so
+**/*.o
+**/*.a
+**/*.d
+.externalNativeBuild/
+
+# Fichiers générés automatiquement
+/generated
+
+# APKs et exécutables générés
+*.apk
+*.ap_
+*.dex
+
+# Clés de signature et fichiers sensibles (si applicable)
+*.keystore
+*.jks
+
+# Exclure les fichiers de configuration d'environnement locaux
 local.properties
+*.env
+
+# Fichiers d'exécution JetBrains
+/out/
+.idea_modules/
+
+# Exclure les ressources de test
+/app/build/intermediates
+
+# Fichiers de cache divers
+.DS_Store
+*.tmp
+*.swp
+*.lock
+*.bak
+*.backup
+*.orig
+*.rej
