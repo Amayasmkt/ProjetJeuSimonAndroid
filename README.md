@@ -15,7 +15,7 @@ Le **Jeu du Simon** est un jeu de mémoire populaire dans lequel le joueur doit 
 - **Gestion des scores** : 
   - Les trois meilleurs scores, avec les noms des joueurs, sont enregistrés en utilisant `SharedPreferences`.
 
-## Gameplay 🎮
+## Gameplay
 
 Le joueur doit répéter la séquence de couleurs affichée à l'écran. Chaque niveau ajoute une nouvelle couleur à la séquence. 
 Le jeu se termine lorsque le joueur se trompe dans l'ordre des couleurs. Le score final est calculé en fonction du nombre de séquences correctement reproduites.
@@ -45,7 +45,7 @@ Le jeu se termine lorsque le joueur se trompe dans l'ordre des couleurs. Le scor
    git clone https://github.com/Amayasmkt/SimonGame-Android.git
    ```
 2. **Ouvrir le projet dans Android Studio.**
-3. **Construire et exécuter l'application : **
+3. **Construire et exécuter l'application** : 
    - Utilisez un appareil physique ou un émulateur pour tester l'application.
 
 ## Meilleurs scores et noms
